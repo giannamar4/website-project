@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" type = "image/png" href = "dancelogo.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="order.html">Order</a></li>
+        </ul>
+        </nav>
+        <div class="form">
+            <form>
+                <!-- contact info -->
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="phone">Phone Number</label>
+              <textarea id="phone" name="phone" placeholder="xxx-xxx-xxxx" style="height:40px"></textarea>
+
+              <label for="email">Email</label>
+              <textarea id="email" name="email" placeholder="Your email.." style="height:40px"></textarea>
+<!-- number of people -->
+              <label for="numbr">Number of People</label>
+              <select id="numbr" name="numbr">
+                <option value="solo">Solo</option>
+                <option value="duet">Duet</option>
+                <option value="trio">Trio</option>
+                <option value="four">4+</option>
+<!-- styles of dance -->
+              </select>
+              <p>Select style(s) of dance:</p>
+              <input type="checkbox" id="option1" name="option1" value="ballet">
+              <label for="option1">Ballet</label><br>
+              <input type="checkbox" id="option2" name="option2" value="Jazz">
+              <label for="option2"> Jazz</label><br>
+              <input type="checkbox" id="option3" name="option3" value="Modern">
+              <label for="option3">Modern/Contemporary</label><br>
+              <input type="checkbox" id="option4" name="option4" value="hop">
+              <label for="option4">Hip-Hop</label><br>
+              <input type="checkbox" id="option6" name="option6" value="acro">
+              <label for="option6">Acro</label><br>
+              <input type="checkbox" id="option5" name="option5" value="other">
+              <label for="option5">Other</label><br>
+
+<!-- yes or no -->
+              <p>Will you be bringing props?</p>
+                <input type="radio" id="Yes" name="props1" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="No" name="props" value="no">
+                <label for="No">No</label><br>
+               
+              
+          <!-- special requests -->
+              <br>
+              <label for="subject">Special Requests</label>
+              <textarea id="subject" name="subject" placeholder="Optional" style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          
+        <footer>
+            <p>Contact us at legacyphoto@yahoo.com</p>
+            <p>All photos credited to Canva</p>
+        </footer>
